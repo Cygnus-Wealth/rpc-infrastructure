@@ -1,0 +1,66 @@
+{
+  "name": "@cygnus-wealth/rpc-infrastructure",
+  "version": "1.0.0",
+  "description": "RPC infrastructure configuration types for CygnusWealth multi-chain operations",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./enums/RpcProviderRole": {
+      "types": "./dist/enums/RpcProviderRole.d.ts",
+      "import": "./dist/enums/RpcProviderRole.js"
+    },
+    "./enums/RpcProviderType": {
+      "types": "./dist/enums/RpcProviderType.d.ts",
+      "import": "./dist/enums/RpcProviderType.js"
+    },
+    "./interfaces/*": {
+      "types": "./dist/interfaces/*.d.ts",
+      "import": "./dist/interfaces/*.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest",
+    "test:run": "vitest --run",
+    "test:coverage": "vitest --coverage --run",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "rpc",
+    "infrastructure",
+    "blockchain",
+    "multi-chain",
+    "configuration",
+    "typescript",
+    "cygnus-wealth"
+  ],
+  "license": "ISC",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cygnus-Wealth/rpc-infrastructure.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@cygnus-wealth/data-models": ">=1.3.0"
+  },
+  "peerDependenciesMeta": {
+    "@cygnus-wealth/data-models": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
+  }
+}
