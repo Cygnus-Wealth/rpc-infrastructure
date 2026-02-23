@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import type { RetryConfig } from '../../../src/interfaces/RetryConfig';
+import type { RetryConfig } from '../../../src/interfaces/RetryConfig.js';
 
 describe('RetryConfig', () => {
   it('should accept a valid retry config', () => {

@@ -1,4 +1,4 @@
-import { RpcEndpointConfig } from './RpcEndpointConfig';
+import { RpcEndpointConfig } from './RpcEndpointConfig.js';
 
 /**
  * RPC configuration for a single blockchain network.

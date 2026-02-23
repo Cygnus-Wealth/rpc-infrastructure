@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
-import { RpcProviderRole } from '../../../src/enums/RpcProviderRole';
-import { RpcProviderType } from '../../../src/enums/RpcProviderType';
-import type { RpcProviderConfig } from '../../../src/interfaces/RpcProviderConfig';
+import { RpcProviderRole } from '../../../src/enums/RpcProviderRole.js';
+import { RpcProviderType } from '../../../src/enums/RpcProviderType.js';
+import type { RpcProviderConfig } from '../../../src/interfaces/RpcProviderConfig.js';
 
 describe('RpcProviderConfig', () => {
   it('should accept a full multi-chain config without user overrides', () => {

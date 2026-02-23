@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import type { UserRpcConfig } from '../../../src/interfaces/UserRpcConfig';
+import type { UserRpcConfig } from '../../../src/interfaces/UserRpcConfig.js';
 
 describe('UserRpcConfig', () => {
   it('should accept override mode', () => {

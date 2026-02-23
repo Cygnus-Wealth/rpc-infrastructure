@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import type { UserRpcEndpoint } from '../../../src/interfaces/UserRpcEndpoint';
+import type { UserRpcEndpoint } from '../../../src/interfaces/UserRpcEndpoint.js';
 
 describe('UserRpcEndpoint', () => {
   it('should accept a minimal user endpoint', () => {

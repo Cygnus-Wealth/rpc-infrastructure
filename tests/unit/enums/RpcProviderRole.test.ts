@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { RpcProviderRole } from '../../../src/enums/RpcProviderRole';
+import { RpcProviderRole } from '../../../src/enums/RpcProviderRole.js';
 
 describe('RpcProviderRole', () => {
   it('should define PRIMARY role', () => {

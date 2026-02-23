@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import type { PrivacyConfig } from '../../../src/interfaces/PrivacyConfig';
+import type { PrivacyConfig } from '../../../src/interfaces/PrivacyConfig.js';
 
 describe('PrivacyConfig', () => {
   it('should accept a privacy-enabled config', () => {

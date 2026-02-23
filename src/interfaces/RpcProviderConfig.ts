@@ -1,9 +1,9 @@
-import { ChainRpcConfig } from './ChainRpcConfig';
-import { CircuitBreakerConfig } from './CircuitBreakerConfig';
-import { RetryConfig } from './RetryConfig';
-import { HealthCheckConfig } from './HealthCheckConfig';
-import { PrivacyConfig } from './PrivacyConfig';
-import { UserRpcConfig } from './UserRpcConfig';
+import { ChainRpcConfig } from './ChainRpcConfig.js';
+import { CircuitBreakerConfig } from './CircuitBreakerConfig.js';
+import { RetryConfig } from './RetryConfig.js';
+import { HealthCheckConfig } from './HealthCheckConfig.js';
+import { PrivacyConfig } from './PrivacyConfig.js';
+import { UserRpcConfig } from './UserRpcConfig.js';
 
 /**
  * Top-level RPC provider configuration for multi-chain operations.

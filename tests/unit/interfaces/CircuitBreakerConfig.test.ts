@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import type { CircuitBreakerConfig } from '../../../src/interfaces/CircuitBreakerConfig';
+import type { CircuitBreakerConfig } from '../../../src/interfaces/CircuitBreakerConfig.js';
 
 describe('CircuitBreakerConfig', () => {
   it('should accept a valid circuit breaker config', () => {

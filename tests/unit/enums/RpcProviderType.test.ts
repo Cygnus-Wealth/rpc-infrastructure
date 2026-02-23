@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { RpcProviderType } from '../../../src/enums/RpcProviderType';
+import { RpcProviderType } from '../../../src/enums/RpcProviderType.js';
 
 describe('RpcProviderType', () => {
   it('should define MANAGED type', () => {

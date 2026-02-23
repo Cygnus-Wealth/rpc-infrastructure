@@ -1,4 +1,4 @@
-import { UserRpcEndpoint } from './UserRpcEndpoint';
+import { UserRpcEndpoint } from './UserRpcEndpoint.js';
 
 /**
  * Configuration for user-provided RPC endpoint overrides.

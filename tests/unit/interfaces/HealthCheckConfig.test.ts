@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import type { HealthCheckConfig } from '../../../src/interfaces/HealthCheckConfig';
+import type { HealthCheckConfig } from '../../../src/interfaces/HealthCheckConfig.js';
 
 describe('HealthCheckConfig', () => {
   it('should accept a valid health check config', () => {

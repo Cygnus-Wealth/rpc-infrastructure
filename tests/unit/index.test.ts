@@ -2,7 +2,7 @@ import { describe, it, expect } from 'vitest';
 import {
   RpcProviderRole,
   RpcProviderType
-} from '../../src/index';
+} from '../../src/index.js';
 
 import type {
   RpcEndpointConfig,
@@ -14,7 +14,7 @@ import type {
   UserRpcEndpoint,
   UserRpcConfig,
   PrivacyConfig
-} from '../../src/index';
+} from '../../src/index.js';
 
 describe('index barrel exports', () => {
   it('should export RpcProviderRole enum', () => {

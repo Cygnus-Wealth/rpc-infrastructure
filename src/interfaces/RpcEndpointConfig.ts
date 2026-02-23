@@ -1,5 +1,5 @@
-import { RpcProviderRole } from '../enums/RpcProviderRole';
-import { RpcProviderType } from '../enums/RpcProviderType';
+import { RpcProviderRole } from '../enums/RpcProviderRole.js';
+import { RpcProviderType } from '../enums/RpcProviderType.js';
 
 /**
  * Configuration for a single RPC endpoint within a chain's fallback chain.

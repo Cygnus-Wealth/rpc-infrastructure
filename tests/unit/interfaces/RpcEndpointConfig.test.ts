@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
-import { RpcProviderRole } from '../../../src/enums/RpcProviderRole';
-import { RpcProviderType } from '../../../src/enums/RpcProviderType';
-import type { RpcEndpointConfig } from '../../../src/interfaces/RpcEndpointConfig';
+import { RpcProviderRole } from '../../../src/enums/RpcProviderRole.js';
+import { RpcProviderType } from '../../../src/enums/RpcProviderType.js';
+import type { RpcEndpointConfig } from '../../../src/interfaces/RpcEndpointConfig.js';
 
 describe('RpcEndpointConfig', () => {
   it('should accept a valid endpoint config with all required fields', () => {

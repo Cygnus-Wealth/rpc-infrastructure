@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
-import { RpcProviderRole } from '../../../src/enums/RpcProviderRole';
-import { RpcProviderType } from '../../../src/enums/RpcProviderType';
-import type { ChainRpcConfig } from '../../../src/interfaces/ChainRpcConfig';
+import { RpcProviderRole } from '../../../src/enums/RpcProviderRole.js';
+import { RpcProviderType } from '../../../src/enums/RpcProviderType.js';
+import type { ChainRpcConfig } from '../../../src/interfaces/ChainRpcConfig.js';
 
 describe('ChainRpcConfig', () => {
   it('should accept a valid chain RPC config', () => {
